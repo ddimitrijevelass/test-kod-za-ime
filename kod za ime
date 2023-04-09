@@ -1,7 +1,10 @@
-kod = input("Unesite kod: ")
-if kod == "8600197462500":
-    print("Dimitrje")
-
-kod = input("Unesite kod: ")
-if kod == "0711":
-    print("Test")
+while True:
+    kod = input("Unesite kod (ili 'kraj' za izlazak): ")
+    if kod == "kraj":
+        break
+    elif kod == "8600197462500":
+        print("Dimitrje")
+    elif kod == "kod":
+        print("ime")
+    else:
+        print("Kod nije ispravan")
