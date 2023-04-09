@@ -1,0 +1,7 @@
+kod = input("Unesite kod: ")
+if kod == "8600197462500":
+    print("Dimitrje")
+
+kod = input("Unesite kod: ")
+if kod == "0711":
+    print("Test")
